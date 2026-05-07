@@ -1,5 +1,4 @@
-export interface HistoryEntry
-{
+export interface History {
     id: number;
     text: string;
     type: string;

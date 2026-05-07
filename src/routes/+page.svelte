@@ -1,22 +1,22 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import type { HistoryEntry } from "./interfaces/HistoryEntry";
-    import TerminalScreen from "./components/TerminalScreen.svelte";
-    import TerminalInput from "./components/TerminalInput.svelte";
-    import GitHubCorner from "./components/GitHubCorner.svelte";
+    import type { History } from "$lib/types/history";
+    import TerminalScreen from "./(components)/TerminalScreen.svelte";
+    import TerminalInput from "./(components)/TerminalInput.svelte";
+    import GitHubCorner from "./(components)/GitHubCorner.svelte";
 
-    import blog from "./commands/blog";
-    import home from "./commands/home";
-    import menu from "./commands/menu";
-    import about from "./commands/about";
-    import error from "./commands/error";
-    import resume from "./commands/resume";
-    import github from "./commands/github";
-    import twitter from "./commands/twitter";
-    import linkedin from "./commands/linkedin";
-    import projects from "./commands/projects";
+    import blog from "$lib/commands/blog";
+    import home from "$lib/commands/home";
+    import menu from "$lib/commands/menu";
+    import about from "$lib/commands/about";
+    import error from "$lib/commands/error";
+    import resume from "$lib/commands/resume";
+    import github from "$lib/commands/github";
+    import twitter from "$lib/commands/twitter";
+    import linkedin from "$lib/commands/linkedin";
+    import projects from "$lib/commands/projects";
 
-    let history: HistoryEntry[] = $state( [] );
+    let history: History[] = $state( [] );
     let userInput: string = $state( "" );
     let historyIndex: number = $state( 0 );
     let terminalInput: HTMLElement | undefined = $state();
