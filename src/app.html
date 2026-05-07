@@ -7,14 +7,12 @@
         <meta name="theme-color" content="#171717" />
         <meta name="text-scale" content="scale" />
         <meta name="description" content="🏠 A terminal-style home page to browse my personal projects." />
-        <meta name="keywords" content="npm,typescript,eslint,a11y,prettier,homepage,svelte,husky,vite,terminal-style" />
+        <meta name="keywords" content="npm,typescript,eslint,a11y,prettier,homepage,svelte,husky,vite,terminal-style,sveltekit" />
 
         <title>Florian Trayon - Homepage</title>
 
         <link rel="author" href="https://github.com/FlorianLeChat" />
         <meta name="author" content="Florian Trayon" />
-
-        <link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials" />
 
         <meta property="og:title" content="Florian Trayon - Homepage" />
         <meta property="og:description" content="🏠 A terminal-style home page to browse my personal projects." />
@@ -28,15 +26,12 @@
         <meta name="twitter:description" content="🏠 A terminal-style home page to browse my personal projects." />
         <meta name="twitter:image" content="https://raw.githubusercontent.com/FlorianLeChat/Homepage/refs/heads/master/.gitlab/images/homepage.png" />
 
-        <link rel="icon" href="/assets/favicons/16x16.webp" type="image/webp" sizes="16x16" />
-        <link rel="icon" href="/assets/favicons/32x32.webp" type="image/webp" sizes="32x32" />
-        <link rel="icon" href="/assets/favicons/48x48.webp" type="image/webp" sizes="48x48" />
-        <link rel="icon" href="/assets/favicons/192x192.webp" type="image/webp" sizes="192x192" />
-        <link rel="icon" href="/assets/favicons/512x512.webp" type="image/webp" sizes="512x512" />
-        <link rel="apple-touch-icon" href="/assets/favicons/180x180.webp" type="image/webp" sizes="180x180" />
+        %sveltekit.head%
     </head>
 
-    <body>
-        <script type="module" src="src/main.ts"></script>
+    <body data-sveltekit-preload-data="hover">
+        <div style="display: contents">
+            %sveltekit.body%
+        </div>
     </body>
 </html>
