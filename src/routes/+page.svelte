@@ -12,6 +12,7 @@
     import error from "$lib/commands/error";
     import resume from "$lib/commands/resume";
     import github from "$lib/commands/github";
+    import version from "$lib/commands/version";
     import twitter from "$lib/commands/twitter";
     import linkedin from "$lib/commands/linkedin";
     import projects from "$lib/commands/projects";
@@ -77,6 +78,10 @@
 
             case "resume":
                 output = resume;
+                break;
+
+            case "version":
+                output = version;
                 break;
 
             case "projects":
