@@ -5,6 +5,7 @@
 ![TypeScript](.gitlab/badges/typescript.svg)
 
 ![Svelte](.gitlab/badges/svelte.svg)
+![SvelteKit](.gitlab/badges/sveltekit.svg)
 ![Vite](.gitlab/badges/vite.svg)
 ![Prettier](.gitlab/badges/prettier.svg)
 ![ESLint](.gitlab/badges/eslint.svg)
@@ -18,7 +19,9 @@
 
 ### Introduction
 
-Ce projet est un petit site Internet conçu sous forme de page d'accueil pour les utilisateurs cherchant à avoir les liens essentiels vers mes réseaux sociaux ou vers mes projets personnels. Il sert également de porte d'entrée vers mon [Portfolio](https://github.com/FlorianLeChat/Portfolio) pour les plus nerds d'entre nous 🤓 et n'est absolument pas adapté pour un usage habituel. Comme vous avez pu le deviner, l'apparence générale du site Internet est grandement inspirée de [craig-feldman/personal-website-react](https://github.com/craig-feldman/personal-website-react) et [perverse/vue-terminal-homepage](https://github.com/perverse/vue-terminal-homepage), le style est très orienté comme pour simuler un *vrai* terminal de commande sous Linux. Néanmoins, j'ai pris soin d'ajouter ma propre touche personnelle et d'utiliser des technologies différentes (comme [SvelteKit](https://svelte.dev/) 💖) pour le développement de ce projet.
+Ce projet est un petit site Internet conçu sous forme de page d'accueil pour les utilisateurs cherchant à avoir les liens essentiels vers mes réseaux sociaux ou vers mes projets personnels. Il sert également de porte d'entrée vers mon [Portfolio](https://github.com/FlorianLeChat/Portfolio) pour les plus nerds d'entre nous et n'est absolument pas adapté pour un usage habituel. 🤓
+
+Comme vous avez pu le deviner, l'apparence générale du site Internet est grandement inspirée de [craig-feldman/personal-website-react](https://github.com/craig-feldman/personal-website-react) et [perverse/vue-terminal-homepage](https://github.com/perverse/vue-terminal-homepage), le style est très orienté comme pour simuler un *vrai* terminal de commande sous Linux. Néanmoins, j'ai pris soin d'ajouter ma propre touche personnelle et d'utiliser des technologies différentes (comme [SvelteKit](https://svelte.dev/) 💖) pour le développement de ce projet. ⚗️
 
 ### Installation
 
@@ -47,7 +50,9 @@ Ce projet est un petit site Internet conçu sous forme de page d'accueil pour le
 
 ### Introduction
 
-This project is a small website designed as a landing page for users looking for essential links to my social media accounts or personal projects. It also serves as a gateway to my [Portfolio](https://github.com/FlorianLeChat/Portfolio) for those of us who are a bit nerdy 🤓 and is absolutely not intended for everyday use. As you may have guessed, the overall layout of the website is heavily inspired by [craig-feldman/personal-website-react](https://github.com/craig-feldman/personal-website-react) and [perverse/vue-terminal-homepage](https://github.com/perverse/vue-terminal-homepage), the style being very oriented to simulate a *real* Linux command terminal. However, I took care to add my own personal touch and to use different technologies (like [SvelteKit](https://svelte.dev/) 💖) for the development of this project.
+This project is a small website designed as a landing page for users looking for essential links to my social media accounts or personal projects. It also serves as a gateway to my [Portfolio](https://github.com/FlorianLeChat/Portfolio) for those of us who are a bit nerdy and is absolutely not intended for everyday use. 🤓
+
+As you may have guessed, the overall layout of the website is heavily inspired by [craig-feldman/personal-website-react](https://github.com/craig-feldman/personal-website-react) and [perverse/vue-terminal-homepage](https://github.com/perverse/vue-terminal-homepage), the style being very oriented to simulate a *real* Linux command terminal. However, I took care to add my own personal touch and to use different technologies (like [SvelteKit](https://svelte.dev/) 💖) for the development of this project. ⚗️
 
 ### Setup
 
