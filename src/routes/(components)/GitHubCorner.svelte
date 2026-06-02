@@ -3,7 +3,7 @@
 
 <a
     rel="noopener noreferrer"
-    href="https://github.com/FlorianLeChat/Homepage"
+    href="https://github.com/FlorianLeChat/Terminal-Homepage"
     target="_blank"
     aria-label="GitHub repository link"
 >

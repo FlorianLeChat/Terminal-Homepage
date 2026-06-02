@@ -1,8 +1,8 @@
 {
-    "name": "Homepage",
+    "name": "Terminal Homepage",
     "display": "standalone",
     "start_url": "/",
-    "short_name": "Homepage",
+    "short_name": "Terminal Homepage",
     "description": "🏠 A terminal-style home page to browse my personal projects.",
     "theme_color": "#171717",
     "background_color": "#171717",
