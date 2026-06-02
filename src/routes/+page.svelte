@@ -5,13 +5,13 @@
     import TerminalInput from "./(components)/TerminalInput.svelte";
     import GitHubCorner from "./(components)/GitHubCorner.svelte";
 
+    import git from "$lib/commands/git";
     import blog from "$lib/commands/blog";
     import home from "$lib/commands/home";
     import menu from "$lib/commands/menu";
     import about from "$lib/commands/about";
     import error from "$lib/commands/error";
     import resume from "$lib/commands/resume";
-    import github from "$lib/commands/github";
     import version from "$lib/commands/version";
     import twitter from "$lib/commands/twitter";
     import linkedin from "$lib/commands/linkedin";
@@ -54,6 +54,10 @@
 
         switch ( command )
         {
+            case "git":
+                output = git;
+                break;
+
             case "blog":
                 output = blog;
                 break;
@@ -86,10 +90,6 @@
 
             case "projects":
                 output = projects;
-                break;
-
-            case "github":
-                output = github;
                 break;
 
             case "linkedin":

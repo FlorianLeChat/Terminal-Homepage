@@ -40,7 +40,7 @@ export default [
     "|   <color=\"yellow\">Have A Break, Save The Planet</color>                <link=\"https://github.com/FlorianLeChat/Games-On-Web-2023\">https://github.com/FlorianLeChat/Games-On-Web-2023</link>",
     " ",
     "|   <color=\"gray\">// 🏠 A terminal-style home page to browse my personal projects (hey, is this the current website?!).</color>",
-    "|   <color=\"yellow\">Homepage</color>                                     <link=\"https://github.com/FlorianLeChat/Homepage\">https://github.com/FlorianLeChat/Homepage</link>",
+    "|   <color=\"yellow\">Terminal Homepage</color>                            <link=\"https://github.com/FlorianLeChat/Terminal-Homepage\">https://github.com/FlorianLeChat/Terminal-Homepage</link>",
     " ",
     "|   <color=\"gray\">// 🔗 An URL Shortener designed to be easy to use, inherently secure and fully customizable, with a strong emphasis on privacy and a fully independent API.</color>",
     "|   <color=\"yellow\">Raven Url Shortener</color>                          <link=\"https://github.com/FlorianLeChat/Raven-Url-Shortener\">https://github.com/FlorianLeChat/Raven-Url-Shortener</link>",
