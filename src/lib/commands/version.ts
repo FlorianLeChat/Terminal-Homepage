@@ -1,3 +1,3 @@
-import { env } from "$env/dynamic/public";
+import { PUBLIC_VERSION } from "$app/env/public";
 
-export default [ " ", `This website is running on version <color="red">${ env.PUBLIC_VERSION ?? "0.0.1" }</color>.`, " " ];
+export default [ " ", `This website is running on version <color="red">${ PUBLIC_VERSION }</color>.`, " " ];
