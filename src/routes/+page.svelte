@@ -1,21 +1,21 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import type { History } from "$lib/types/history";
+    import type { History } from "#lib/types/history.ts";
     import TerminalScreen from "./(components)/TerminalScreen.svelte";
     import TerminalInput from "./(components)/TerminalInput.svelte";
     import GitHubCorner from "./(components)/GitHubCorner.svelte";
 
-    import git from "$lib/commands/git";
-    import blog from "$lib/commands/blog";
-    import home from "$lib/commands/home";
-    import menu from "$lib/commands/menu";
-    import about from "$lib/commands/about";
-    import error from "$lib/commands/error";
-    import resume from "$lib/commands/resume";
-    import version from "$lib/commands/version";
-    import twitter from "$lib/commands/twitter";
-    import linkedin from "$lib/commands/linkedin";
-    import projects from "$lib/commands/projects";
+    import git from "#lib/commands/git.ts";
+    import blog from "#lib/commands/blog.ts";
+    import home from "#lib/commands/home.ts";
+    import menu from "#lib/commands/menu.ts";
+    import about from "#lib/commands/about.ts";
+    import error from "#lib/commands/error.ts";
+    import resume from "#lib/commands/resume.ts";
+    import version from "#lib/commands/version.ts";
+    import twitter from "#lib/commands/twitter.ts";
+    import linkedin from "#lib/commands/linkedin.ts";
+    import projects from "#lib/commands/projects.ts";
 
     let history: History[] = $state( [] );
     let userInput: string = $state( "" );

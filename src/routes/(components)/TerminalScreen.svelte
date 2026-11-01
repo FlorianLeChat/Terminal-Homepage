@@ -1,6 +1,6 @@
 <script lang="ts">
     import OutputRow from "./OutputRow.svelte";
-    import type { History } from "$lib/types/history";
+    import type { History } from "#lib/types/history.ts";
 
     const { history = [] }: { history?: History[] } = $props();
 </script>
