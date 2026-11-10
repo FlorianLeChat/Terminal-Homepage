@@ -59,5 +59,8 @@ export default [
     " ",
     "|   <color=\"gray\">// 🎭 A terminal-style website where you can read, explore, and play interactive stories created by humans and AI.</color>",
     "|   <color=\"yellow\">Terminal Stories</color>                             <link=\"https://github.com/FlorianLeChat/Terminal-Stories\">https://github.com/FlorianLeChat/Terminal-Stories</link>",
+    " ",
+    "|   <color=\"gray\">// 🌄 An alternative wiki-style website to create an encyclopedia about your own custom universe.</color>",
+    "|   <color=\"yellow\">Pericles Initiative</color>                          <link=\"https://github.com/FlorianLeChat/Pericles-Initiative\">https://github.com/FlorianLeChat/Pericles-Initiative</link>",
     " "
 ];
